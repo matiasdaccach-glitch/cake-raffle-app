@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rifa de pastel</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <h1>🎂 Rifa de pastel</h1>
+    <p>Escribe un nombre por línea. Cada nombre participa una vez.</p>
+    <label for="names">Participantes</label>
+    <textarea id="names" placeholder="Ana&#10;Luis&#10;Sam"></textarea>
+    <button id="draw">Elegir ganador</button>
+    <p id="result" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

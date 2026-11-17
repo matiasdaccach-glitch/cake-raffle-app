@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #fff3f0;
+  color: #402b32;
+  font: 16px system-ui;
+}
+
+.app {
+  width: min(92vw, 560px);
+  padding: 32px;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 16px 55px #6a304522;
+}
+
+textarea {
+  width: 100%;
+  min-height: 130px;
+  padding: 12px;
+  border: 1px solid #dfc8cc;
+  border-radius: 12px;
+  font: inherit;
+}
+
+button {
+  margin-top: 14px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 10px;
+  background: #d94f70;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#result {
+  min-height: 1.7em;
+  color: #a52d4a;
+  font-size: 1.35rem;
+  font-weight: 750;
+}
